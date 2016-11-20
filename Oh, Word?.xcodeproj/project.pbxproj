@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B0ADCF1DE2604200A67D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADCE1DE2604200A67D3C /* AppDelegate.swift */; };
+		24B0ADD11DE2604200A67D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADD01DE2604200A67D3C /* ViewController.swift */; };
+		24B0ADD41DE2604200A67D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B0ADD21DE2604200A67D3C /* Main.storyboard */; };
+		24B0ADD61DE2604200A67D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B0ADD51DE2604200A67D3C /* Assets.xcassets */; };
+		24B0ADD91DE2604200A67D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B0ADD71DE2604200A67D3C /* LaunchScreen.storyboard */; };
+		24B0ADE41DE2604200A67D3C /* Oh__Word_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADE31DE2604200A67D3C /* Oh__Word_Tests.swift */; };
+		24B0ADEF1DE2604200A67D3C /* Oh__Word_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADEE1DE2604200A67D3C /* Oh__Word_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B0ADE01DE2604200A67D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B0ADC31DE2604200A67D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B0ADCA1DE2604200A67D3C;
+			remoteInfo = "Oh, Word?";
+		};
+		24B0ADEB1DE2604200A67D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B0ADC31DE2604200A67D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B0ADCA1DE2604200A67D3C;
+			remoteInfo = "Oh, Word?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B0ADCB1DE2604200A67D3C /* Oh, Word?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oh, Word?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B0ADCE1DE2604200A67D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24B0ADD01DE2604200A67D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24B0ADD31DE2604200A67D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24B0ADD51DE2604200A67D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24B0ADD81DE2604200A67D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24B0ADDA1DE2604200A67D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B0ADDF1DE2604200A67D3C /* Oh, Word?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oh, Word?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B0ADE31DE2604200A67D3C /* Oh__Word_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oh__Word_Tests.swift; sourceTree = "<group>"; };
+		24B0ADE51DE2604200A67D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B0ADEA1DE2604200A67D3C /* Oh, Word?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oh, Word?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B0ADEE1DE2604200A67D3C /* Oh__Word_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oh__Word_UITests.swift; sourceTree = "<group>"; };
+		24B0ADF01DE2604200A67D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B0ADC81DE2604200A67D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B0ADDC1DE2604200A67D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B0ADE71DE2604200A67D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B0ADC21DE2604200A67D3C = {
+			isa = PBXGroup;
+			children = (
+				24B0ADCD1DE2604200A67D3C /* Oh, Word? */,
+				24B0ADE21DE2604200A67D3C /* Oh, Word?Tests */,
+				24B0ADED1DE2604200A67D3C /* Oh, Word?UITests */,
+				24B0ADCC1DE2604200A67D3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B0ADCC1DE2604200A67D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B0ADCB1DE2604200A67D3C /* Oh, Word?.app */,
+				24B0ADDF1DE2604200A67D3C /* Oh, Word?Tests.xctest */,
+				24B0ADEA1DE2604200A67D3C /* Oh, Word?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B0ADCD1DE2604200A67D3C /* Oh, Word? */ = {
+			isa = PBXGroup;
+			children = (
+				24B0ADCE1DE2604200A67D3C /* AppDelegate.swift */,
+				24B0ADD01DE2604200A67D3C /* ViewController.swift */,
+				24B0ADD21DE2604200A67D3C /* Main.storyboard */,
+				24B0ADD51DE2604200A67D3C /* Assets.xcassets */,
+				24B0ADD71DE2604200A67D3C /* LaunchScreen.storyboard */,
+				24B0ADDA1DE2604200A67D3C /* Info.plist */,
+			);
+			path = "Oh, Word?";
+			sourceTree = "<group>";
+		};
+		24B0ADE21DE2604200A67D3C /* Oh, Word?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24B0ADE31DE2604200A67D3C /* Oh__Word_Tests.swift */,
+				24B0ADE51DE2604200A67D3C /* Info.plist */,
+			);
+			path = "Oh, Word?Tests";
+			sourceTree = "<group>";
+		};
+		24B0ADED1DE2604200A67D3C /* Oh, Word?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				24B0ADEE1DE2604200A67D3C /* Oh__Word_UITests.swift */,
+				24B0ADF01DE2604200A67D3C /* Info.plist */,
+			);
+			path = "Oh, Word?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B0ADCA1DE2604200A67D3C /* Oh, Word? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B0ADF31DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?" */;
+			buildPhases = (
+				24B0ADC71DE2604200A67D3C /* Sources */,
+				24B0ADC81DE2604200A67D3C /* Frameworks */,
+				24B0ADC91DE2604200A67D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oh, Word?";
+			productName = "Oh, Word?";
+			productReference = 24B0ADCB1DE2604200A67D3C /* Oh, Word?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24B0ADDE1DE2604200A67D3C /* Oh, Word?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B0ADF61DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?Tests" */;
+			buildPhases = (
+				24B0ADDB1DE2604200A67D3C /* Sources */,
+				24B0ADDC1DE2604200A67D3C /* Frameworks */,
+				24B0ADDD1DE2604200A67D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B0ADE11DE2604200A67D3C /* PBXTargetDependency */,
+			);
+			name = "Oh, Word?Tests";
+			productName = "Oh, Word?Tests";
+			productReference = 24B0ADDF1DE2604200A67D3C /* Oh, Word?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24B0ADE91DE2604200A67D3C /* Oh, Word?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B0ADF91DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?UITests" */;
+			buildPhases = (
+				24B0ADE61DE2604200A67D3C /* Sources */,
+				24B0ADE71DE2604200A67D3C /* Frameworks */,
+				24B0ADE81DE2604200A67D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B0ADEC1DE2604200A67D3C /* PBXTargetDependency */,
+			);
+			name = "Oh, Word?UITests";
+			productName = "Oh, Word?UITests";
+			productReference = 24B0ADEA1DE2604200A67D3C /* Oh, Word?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B0ADC31DE2604200A67D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FishbulbApps;
+				TargetAttributes = {
+					24B0ADCA1DE2604200A67D3C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					24B0ADDE1DE2604200A67D3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 24B0ADCA1DE2604200A67D3C;
+					};
+					24B0ADE91DE2604200A67D3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 24B0ADCA1DE2604200A67D3C;
+					};
+				};
+			};
+			buildConfigurationList = 24B0ADC61DE2604200A67D3C /* Build configuration list for PBXProject "Oh, Word?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24B0ADC21DE2604200A67D3C;
+			productRefGroup = 24B0ADCC1DE2604200A67D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B0ADCA1DE2604200A67D3C /* Oh, Word? */,
+				24B0ADDE1DE2604200A67D3C /* Oh, Word?Tests */,
+				24B0ADE91DE2604200A67D3C /* Oh, Word?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B0ADC91DE2604200A67D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B0ADD91DE2604200A67D3C /* LaunchScreen.storyboard in Resources */,
+				24B0ADD61DE2604200A67D3C /* Assets.xcassets in Resources */,
+				24B0ADD41DE2604200A67D3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B0ADDD1DE2604200A67D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B0ADE81DE2604200A67D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B0ADC71DE2604200A67D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B0ADD11DE2604200A67D3C /* ViewController.swift in Sources */,
+				24B0ADCF1DE2604200A67D3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B0ADDB1DE2604200A67D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B0ADE41DE2604200A67D3C /* Oh__Word_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B0ADE61DE2604200A67D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B0ADEF1DE2604200A67D3C /* Oh__Word_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24B0ADE11DE2604200A67D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B0ADCA1DE2604200A67D3C /* Oh, Word? */;
+			targetProxy = 24B0ADE01DE2604200A67D3C /* PBXContainerItemProxy */;
+		};
+		24B0ADEC1DE2604200A67D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B0ADCA1DE2604200A67D3C /* Oh, Word? */;
+			targetProxy = 24B0ADEB1DE2604200A67D3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24B0ADD21DE2604200A67D3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B0ADD31DE2604200A67D3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24B0ADD71DE2604200A67D3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B0ADD81DE2604200A67D3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B0ADF11DE2604200A67D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24B0ADF21DE2604200A67D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24B0ADF41DE2604200A67D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Oh, Word?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FBA.Oh--Word-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24B0ADF51DE2604200A67D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Oh, Word?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FBA.Oh--Word-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24B0ADF71DE2604200A67D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Oh, Word?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FBA.Oh--Word-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oh, Word?.app/Oh, Word?";
+			};
+			name = Debug;
+		};
+		24B0ADF81DE2604200A67D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Oh, Word?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FBA.Oh--Word-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oh, Word?.app/Oh, Word?";
+			};
+			name = Release;
+		};
+		24B0ADFA1DE2604200A67D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Oh, Word?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FBA.Oh--Word-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Oh, Word?";
+			};
+			name = Debug;
+		};
+		24B0ADFB1DE2604200A67D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Oh, Word?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FBA.Oh--Word-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Oh, Word?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B0ADC61DE2604200A67D3C /* Build configuration list for PBXProject "Oh, Word?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B0ADF11DE2604200A67D3C /* Debug */,
+				24B0ADF21DE2604200A67D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B0ADF31DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B0ADF41DE2604200A67D3C /* Debug */,
+				24B0ADF51DE2604200A67D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24B0ADF61DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B0ADF71DE2604200A67D3C /* Debug */,
+				24B0ADF81DE2604200A67D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24B0ADF91DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B0ADFA1DE2604200A67D3C /* Debug */,
+				24B0ADFB1DE2604200A67D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B0ADC31DE2604200A67D3C /* Project object */;
+}
