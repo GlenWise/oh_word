@@ -14,6 +14,8 @@
 		24B0ADD91DE2604200A67D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B0ADD71DE2604200A67D3C /* LaunchScreen.storyboard */; };
 		24B0ADE41DE2604200A67D3C /* Oh__Word_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADE31DE2604200A67D3C /* Oh__Word_Tests.swift */; };
 		24B0ADEF1DE2604200A67D3C /* Oh__Word_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADEE1DE2604200A67D3C /* Oh__Word_UITests.swift */; };
+		24B0ADFE1DE26B6300A67D3C /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADFD1DE26B6300A67D3C /* Word.swift */; };
+		24B0AE001DE26E3300A67D3C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADFF1DE26E3300A67D3C /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		24B0ADEA1DE2604200A67D3C /* Oh, Word?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oh, Word?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B0ADEE1DE2604200A67D3C /* Oh__Word_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oh__Word_UITests.swift; sourceTree = "<group>"; };
 		24B0ADF01DE2604200A67D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B0ADFD1DE26B6300A67D3C /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		24B0ADFF1DE26E3300A67D3C /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		24B0ADCD1DE2604200A67D3C /* Oh, Word? */ = {
 			isa = PBXGroup;
 			children = (
+				24B0ADFC1DE26B5100A67D3C /* Models */,
 				24B0ADCE1DE2604200A67D3C /* AppDelegate.swift */,
 				24B0ADD01DE2604200A67D3C /* ViewController.swift */,
 				24B0ADD21DE2604200A67D3C /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				24B0ADF01DE2604200A67D3C /* Info.plist */,
 			);
 			path = "Oh, Word?UITests";
+			sourceTree = "<group>";
+		};
+		24B0ADFC1DE26B5100A67D3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24B0ADFD1DE26B6300A67D3C /* Word.swift */,
+				24B0ADFF1DE26E3300A67D3C /* Song.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				24B0ADD11DE2604200A67D3C /* ViewController.swift in Sources */,
 				24B0ADCF1DE2604200A67D3C /* AppDelegate.swift in Sources */,
+				24B0ADFE1DE26B6300A67D3C /* Word.swift in Sources */,
+				24B0AE001DE26E3300A67D3C /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
