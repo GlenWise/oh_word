@@ -9,7 +9,15 @@
 import UIKit
 
 class EnterWordsViewController: UIViewController {
-
+    
+    @IBOutlet weak var fillWord: UITextField!
+    @IBOutlet weak var remainingWordCount: UILabel!
+    @IBOutlet weak var artistName: UILabel!
+    
+    @IBAction func nextWord(sender: UIButton) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
