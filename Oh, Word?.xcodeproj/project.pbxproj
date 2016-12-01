@@ -16,6 +16,8 @@
 		24B0ADEF1DE2604200A67D3C /* Oh__Word_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADEE1DE2604200A67D3C /* Oh__Word_UITests.swift */; };
 		24B0ADFE1DE26B6300A67D3C /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADFD1DE26B6300A67D3C /* Word.swift */; };
 		24B0AE001DE26E3300A67D3C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0ADFF1DE26E3300A67D3C /* Song.swift */; };
+		38F242BC1DEF3FCB00D72656 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F242BB1DEF3FCB00D72656 /* SelectionViewController.swift */; };
+		38F242BE1DEFDA6E00D72656 /* EnterWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F242BD1DEFDA6E00D72656 /* EnterWordsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		24B0ADF01DE2604200A67D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24B0ADFD1DE26B6300A67D3C /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		24B0ADFF1DE26E3300A67D3C /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		38F242BB1DEF3FCB00D72656 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		38F242BD1DEFDA6E00D72656 /* EnterWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				24B0ADD51DE2604200A67D3C /* Assets.xcassets */,
 				24B0ADD71DE2604200A67D3C /* LaunchScreen.storyboard */,
 				24B0ADDA1DE2604200A67D3C /* Info.plist */,
+				38F242BB1DEF3FCB00D72656 /* SelectionViewController.swift */,
+				38F242BD1DEFDA6E00D72656 /* EnterWordsViewController.swift */,
 			);
 			path = "Oh, Word?";
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F242BC1DEF3FCB00D72656 /* SelectionViewController.swift in Sources */,
+				38F242BE1DEFDA6E00D72656 /* EnterWordsViewController.swift in Sources */,
 				24B0ADD11DE2604200A67D3C /* ViewController.swift in Sources */,
 				24B0ADCF1DE2604200A67D3C /* AppDelegate.swift in Sources */,
 				24B0ADFE1DE26B6300A67D3C /* Word.swift in Sources */,
@@ -498,6 +506,7 @@
 				24B0ADF51DE2604200A67D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24B0ADF61DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				24B0ADF81DE2604200A67D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24B0ADF91DE2604200A67D3C /* Build configuration list for PBXNativeTarget "Oh, Word?UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				24B0ADFB1DE2604200A67D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
