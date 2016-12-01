@@ -20,7 +20,7 @@ class Song {
     }
     
     func parseLyrics() {
-        let lyricArray = self.lyrics.componentsSeparatedByString(" ")
+        let lyricArray = self.lyrics.components(separatedBy: " ")
         for word in lyricArray {
             switch word {
             case "_LOCATION_":

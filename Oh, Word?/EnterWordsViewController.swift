@@ -8,19 +8,24 @@
 
 import UIKit
 
-class EnterWordsViewController: UIViewController {
+class EnterWordsViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var fillWord: UITextField!
     @IBOutlet weak var remainingWordCount: UILabel!
     @IBOutlet weak var artistName: UILabel!
     
-    @IBAction func nextWord(sender: UIButton) {
+    @IBAction func nextWord(_ sender: UIButton) {
         
+    }
+    
+    func textFieldShouldReturn(_ fillWord: UITextField) -> Bool {
+        fillWord.resignFirstResponder()
+        return true
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.fillWord.delegate = self
         // Do any additional setup after loading the view.
     }
 
